@@ -1,0 +1,8 @@
+{
+  "name": "AbleAssist - Accessibility Assistant",
+  "description": "An AI-powered writing assistant designed for Dysgraphia, Motor Disabilities, and Dyslexia functionality.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}

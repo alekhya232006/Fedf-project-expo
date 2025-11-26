@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AbleAssist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/opendyslexic');
+      
+      /* Custom scrollbar for better visibility */
+      ::-webkit-scrollbar {
+        width: 16px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+        border-radius: 8px;
+        border: 3px solid #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+      
+      .high-contrast ::-webkit-scrollbar-track {
+        background: #000;
+      }
+      .high-contrast ::-webkit-scrollbar-thumb {
+        background: #ffff00;
+        border: 3px solid #000;
+      }
+
+      /* Base styles for accessibility fonts */
+      .font-dyslexic {
+        font-family: 'OpenDyslexic', sans-serif !important;
+        line-height: 2 !important;
+        letter-spacing: 0.1em !important;
+      }
+      .font-lexend {
+        font-family: 'Lexend', sans-serif !important;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
